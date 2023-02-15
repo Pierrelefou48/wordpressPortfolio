@@ -1,0 +1,169 @@
+/*
+Theme Name: Mon theme
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nova+Square&family=Poppins&display=swap');
+
+body{
+    display: flex;
+    background-image: url(../images/imagefond.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: brightness(100%);
+
+}
+h1
+{   color: darkblue; 
+    margin-top: 25px;
+    text-align: center;
+}
+.gauche{
+    text-align: center;
+    color: rgb(11, 11, 188);
+}
+.experience{
+    font-size: x-large;
+    text-align: center;
+}
+.row{
+    background-color: rgba(188, 204, 236, 0.521);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+}
+.rowa{
+    background-color: rgba(206, 232, 242, 0.754);
+    margin-top: 15px;
+   /* margin-bottom: 5px;*/
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+
+}
+.frame {
+    width: 100%;
+   /* height: 350px;*/
+    border: 5px solid #ccc;
+    background: rgba(238, 238, 238, 0.351);
+    margin: auto;
+    padding: 15px 25px;
+    border-radius: 10% / 50%;
+  }
+.bouton{
+    margin: auto;
+    padding: 15px 25px;text-align: center;
+  }
+
+.frame2 {
+    width: 100%;
+    height: 300px;
+    border: 2px solid rgb(189, 236, 203);
+    background: rgba(238, 238, 238, 0.351);
+    margin: auto;
+    padding: 35px 25px;
+    border-radius: 10% / 50%;
+}
+img {
+    width: 100%;
+    border-radius: 10% / 50%;
+  }
+.text-secondary{
+    font-size: 35px;
+    text-align: center;
+    font-weight: bolder;
+    color:rgb(246, 14, 60) !important;
+    margin-top: 20px;
+    animation-duration: .8s;
+    animation-name: clignoter;
+    animation-iteration-count: infinite;
+    transition: none;}
+
+   @keyframes clignoter {
+    0%   { opacity:1; }
+    40%   {opacity:0; }
+    100% { opacity:1; }
+  }
+
+.text-primary{
+    color: rgb(14, 18, 132) !important;
+    font-family: 'Poppins';
+}
+.text-grey{
+    font-family: 'Poppins';
+    font-size: 30px;
+}
+.text-info{
+    color: blueviolet !important;
+}
+.droite{
+    font-family: 'Poppins';
+    font-size: 23px;
+}
+.bas{
+    font-size: 32px;
+    text-align: center;
+    margin-top: 20px;
+}
+.babas{
+    margin-top: 5px;
+    text-align: center;
+}
+.photos{
+    margin-top: 25px;
+    text-align: center;
+    display: flex;
+    max-width: 300px;
+    height: 280px;
+}
+.xmlns{
+    font-size: 32px;
+    text-align: center;
+    margin-top: 20px;
+}
+.btn{
+    text-decoration: none;
+    color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 22px;
+    letter-spacing: 2px;
+    background-color: gold;
+    border-radius: 10px;
+    padding: 20px 24px;
+    box-shadow: 0 0 60px -10px rgba(240, 34, 34, 0.569);
+    transition:all .3s;
+    text-transform: uppercase;
+}
+.btn:hover{
+    box-shadow: 0 0 100 -20px rgb(240, 25, 25);
+}
+a:hover
+{
+    background: var(--clr);
+    box-shadow: 0 0 10px var(--clr),
+    0 0 30px var(--clr),
+    0 0 60px var(--clr),
+    0 0 100px var(--clr),
+}
+.fadein {
+    animation: fadeIn 4s;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+.card{
+    color: crimson;
+}
+
+  
+  
+  
+  
